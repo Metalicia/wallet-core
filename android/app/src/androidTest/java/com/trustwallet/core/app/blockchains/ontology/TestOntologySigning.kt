@@ -20,7 +20,7 @@ class TestOntologySigning {
         val input = signerBuilder.apply {
             contract = "ONG"
             method = "balanceOf"
-            queryAddress = "ANDfjwrUroaVtvBguDtrWKRMyxFwvVwnZD"
+            queryAddress = "TQfDd17zRe5UJkKMJXAqYsMb2oCsVVp1xz"
             nonce = 3486522027.toInt()
         }.build()
 
@@ -40,7 +40,7 @@ class TestOntologySigning {
         val input = signerBuilder.apply {
             contract = "ONT"
             method = "balanceOf"
-            queryAddress = "ANDfjwrUroaVtvBguDtrWKRMyxFwvVwnZD"
+            queryAddress = "TQfDd17zRe5UJkKMJXAqYsMb2oCsVVp1xz"
             nonce = 3959576200.toInt()
         }.build()
 
@@ -61,10 +61,10 @@ class TestOntologySigning {
             contract = "ONT"
             method = "transfer"
             ownerPrivateKey = "4646464646464646464646464646464646464646464646464646464646464646".toHexBytesInByteString()
-            toAddress = "Af1n2cZHhMZumNqKgw9sfCNoTWu9de4NDn"
-            amount = 1
-            gasPrice = 500
-            gasLimit = 20000
+            toAddress = "TQfDd17zRe5UJkKMJXAqYsMb2oCsVVp1xz"
+            amount = 1000000
+            gasPrice = 500000
+            gasLimit = 2000000
             payerPrivateKey = "4646464646464646464646464646464646464646464646464646464646464652".toHexBytesInByteString()
             nonce = 2338116610.toInt()
         }.build()
@@ -90,10 +90,10 @@ class TestOntologySigning {
             contract = "ONG"
             method = "transfer"
             ownerPrivateKey = "4646464646464646464646464646464646464646464646464646464646464646".toHexBytesInByteString()
-            toAddress = "Af1n2cZHhMZumNqKgw9sfCNoTWu9de4NDn"
-            amount = 1
-            gasPrice = 500
-            gasLimit = 20000
+            toAddress = "TQfDd17zRe5UJkKMJXAqYsMb2oCsVVp1xz"
+            amount = 1000000
+            gasPrice = 50000
+            gasLimit = 2000000
             payerPrivateKey = "4646464646464646464646464646464646464646464646464646464646464652".toHexBytesInByteString()
             nonce = 2827104669.toInt()
         }.build()
