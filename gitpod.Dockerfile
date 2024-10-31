@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:noble-20241009
 
 # Install some basics
 RUN apt-get update \
