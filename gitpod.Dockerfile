@@ -1,4 +1,4 @@
-FROM ubuntu:noble-20241009
+FROM ubuntu:24.04
 
 # Install some basics
 RUN apt-get update \
